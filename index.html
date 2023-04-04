@@ -15,25 +15,27 @@
     <title>T2 Nidia Parra</title>
   </head>
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li>
-            <a href="index.html" class="custom-items"><h2>WebStudio</h2></a>
-          </li>
-          <li>
-            <a href="index.html" class="custom-items"><h3>Estudio</h3></a>
-          </li>
-          <li>
-            <a href="portfolio.html" class="header-link-selected"
-              ><h3>Portafolio</h3></a
-            >
-          </li>
-          <li>Contactos</li>
-        </ul>
+    <section class="navegator">
+      <nav class="header-page">
+        <header>
+          <ul class="list navegator">
+            <li class="menu">
+              <a href="index.html" class="custom-items"><h2>WebStudio</h2></a>
+            </li>
+            <li class="menu">
+              <a href="index.html" class="custom-items"><h3>Estudio</h3></a>
+            </li>
+            <li class="menu">
+              <a href="portfolio.html" class="header-link-selected"
+                ><h3>Portafolio</h3></a
+              >
+            </li>
+            <li><h3>Contactos</h3></li>
+          </ul>
+        </header>
       </nav>
       <div>
-        <ul>
+        <ul class="list navegator">
           <li>
             <h4>
               <a href="mailto:info@devestudio.com" class="custom-items"
@@ -50,26 +52,33 @@
           </li>
         </ul>
       </div>
-      <section>
-        <button type="button" class="effect-color">
-          Solicite nuestro servicio
-        </button>
-      </section>
-    </header>
+    </section>
+    <section class="section-banner section">
+      <h1>SOLUCIONES EFICACES PARA</h1>
+      <h1>SU NEGOCIO</h1>
+      <button type="button" class="effect-color">
+        <h3>Solicite nuestro servicio</h3>
+      </button>
+    </section>
+
     <main>
-      <section>
-        <ul>
+      <section class="container container-section section">
+        <ul class="list flex-container">
           <li>
-            <h3>ATENCIÓN A LOS DETALLES</h3>
+            <h4>ATENCIÓN A LOS DETALLES</h4>
+          </li>
+          <li>
             <p class="p-text">
               Nos adentramos en todos los detalles y procesos de su negocio para
               así desarrollar una solución a su medida.
             </p>
           </li>
         </ul>
-        <ul>
+        <ul class="list flex-container">
           <li>
             <h4>PUNTUALIDAD</h4>
+          </li>
+          <li>
             <p class="p-text">
               Con nosotros usted puede sentirse seguro y protegido. Un principio
               importante de la empresa respetar su tiempo y respetar los plazos
@@ -77,18 +86,22 @@
             </p>
           </li>
         </ul>
-        <ul>
+        <ul class="list flex-container">
           <li>
             <h4>PLANIFICACIÓN</h4>
+          </li>
+          <li>
             <p class="p-text">
               Usted podrá oservar y participar en cada fase del desarrollo y
               aplicación de soluciones
             </p>
           </li>
         </ul>
-        <ul>
+        <ul class="list flex-container">
           <li>
             <h4>TECNOLOGÍA MODERNA</h4>
+          </li>
+          <li>
             <p class="p-text">
               Usamos herramientas innovadoras para resolver las tareas
               asignadas. Es hora de simplificar los procesos laborales
@@ -96,9 +109,10 @@
           </li>
         </ul>
       </section>
-      <section>
-        <h2>A qué nos dedicamos</h2>
-        <ul>
+
+      <h2>A qué nos dedicamos</h2>
+      <section class="container-section section">
+        <ul class="list navegator">
           <li>
             <img
               src="./images/computer.jpg"
@@ -125,9 +139,10 @@
           </li>
         </ul>
       </section>
-      <section>
-        <h2>Nuestro equipo</h2>
-        <ul>
+
+      <h2>Nuestro equipo</h2>
+      <section class="container-section navegator section">
+        <ul class="list border-target">
           <li>
             <img
               src="./images/disproducts.jpg"
@@ -139,7 +154,7 @@
           <li><h3 class="text-h3-caption">Andrés Cubo</h3></li>
           <li><p class="p-text">Diseñador de productos</p></li>
         </ul>
-        <ul>
+        <ul class="list border-target">
           <li>
             <img
               src="./images/frontEnd.jpg"
@@ -151,7 +166,7 @@
           <li><h3 class="text-h3-caption">Carla Palacios</h3></li>
           <li><p class="p-text">Diseñadora Frontend</p></li>
         </ul>
-        <ul>
+        <ul class="list border-target">
           <li>
             <img
               src="./images/marketing.jpg"
@@ -164,7 +179,7 @@
           <li><h3 class="text-h3-caption">Mario Dorado</h3></li>
           <li><p class="p-text">Marketing</p></li>
         </ul>
-        <ul>
+        <ul class="list border-target">
           <li>
             <img
               src="./images/disIU.jpg"
@@ -178,9 +193,10 @@
         </ul>
       </section>
     </main>
+
     <footer>
-      <address class="section-background">
-        <ul>
+      <address class="section-background li-footer">
+        <ul class="list">
           <li>
             <p class="custom-items">WebStudio</p>
             <p class="color-foot-font">
@@ -189,12 +205,16 @@
             </p>
           </li>
           <li>
-            <a href="mailto:info@devestudio.com" class="custom-items"
-              >info@devestudio.com</a
-            >
+            <p>
+              <a href="mailto:info@devestudio.com" class="custom-items"
+                >info@devestudio.com</a
+              >
+            </p>
           </li>
           <li>
-            <a href="tel:+52552960000" class="custom-items">+52552960000</a>
+            <p>
+              <a href="tel:+52552960000" class="custom-items">+52552960000</a>
+            </p>
           </li>
         </ul>
       </address>
