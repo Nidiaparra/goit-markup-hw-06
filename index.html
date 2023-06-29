@@ -21,44 +21,38 @@
     <title>T4 Nidia Parra</title>
   </head>
   <body>
-    <section class="container navegator navegator-portfolio">
-      <nav class="header-page">
-        <ul>
-          <a href="index.html" class="custom-items-webstudio">WebStudio</a>
-        </ul>
-        <header>
-          <ul class="list navegator header-page">
-            <li>
+    <header class="header">
+      <nav class="container navegator">          
+          <ul class="list header-page">
+            <a href="index.html" class="custom-items-webstudio">WebStudio</a>
+            <li class="navegator header-page">
               <a href="index.html" class="custom-items-estudio">Estudio</a>
-            </li>
-            <li>
+            
+            
               <a href="portfolio.html" class="header-link-selected">
                 Portafolio</a
               >
-            </li>
-            <li><a href="#" class="text-contact">Contactos</a></li>
+            
+            <a href="#" class="text-contact">Contactos</a>
+          </li>
           </ul>
-        </header>
-      </nav>
-
-      <ul class="list navegator">
-        <li>
-          <svg class="icon-sob">
-            <use href="./images/icons.svg#sobre-activable"></use>
-          </svg><a href="mailto:info@devestudio.com" class="header-link-selected"
-            >info@devestudio.com</a
-          >
-        </li>
-        <li>
-          <svg class="icon-tel">
-            <use href="./images/icons.svg#telfono-inteligente"></use>
-          </svg>
-          <a href="tel:+52552960000" class="header-link-selected"
-            >+52552960000</a
-          >
-        </li>
-      </ul>
-    </section>
+          <ul class="list">
+            <li class="navegator">
+              
+              <a href="mailto:info@devestudio.com" class="header-link-selected"
+                > <svg class="icon-sob">
+                  <use href="./images/icons.svg#sobre-activable"></use></svg>  info@devestudio.com</a
+              >
+              
+              <a href="tel:+52552960000" class="header-link-selected"
+                ><svg class="icon-tel">
+                  <use href="./images/icons.svg#telfono-inteligente"></use>
+                </svg>  +52552960000</a
+              >
+            </li>
+          </ul>
+         </nav>      
+    </header>
 
     <main>
       <section class="section-banner">
@@ -68,68 +62,49 @@
         </button>
       </section>
 
-      <section class="section container flex-container-row">
-        <ul class="list flex-container-position">
-          <li class="background-section-initial">
-            <svg class="icon-products">
-              <use href="./images/icons.svg#antena-1"></use>
-            </svg>
-          </li>
-
+      <section class="section">
+        <ul class="container list flex-container-row">
           <li>
+            <svg class="background-section-initial">
+              <use href="./images/icons.svg#antena-1 " class="icon.products" ></use>
+            </svg>   
             <h3 class="description-charges-name">ATENCIÓN A LOS DETALLES</h3>
-          </li>
-          <li>
+          
             <p class="description-charges">
               Nos adentramos en todos los detalles y procesos de su negocio para
               así desarrollar una solución a su medida.
             </p>
           </li>
-        </ul>
-        <ul class="list flex-container-position">
-          <li class="background-section-initial">
-            <svg class="icon-products icon-container-networs"">
-              <use href="./images/icons.svg#reloj-1" ></use>
+        
+          <li>
+            <svg class="background-section-initial icon-products">
+              <use class="icon-products" href="./images/icons.svg#reloj-1" ></use>
             </svg>
-          </li>
-          <li>
             <h3 class="description-charges-name">PUNTUALIDAD</h3>
-          </li>
-          <li>
             <p class="description-charges">
               Con nosotros usted puede sentirse seguro y protegido. Un principio
               importante de la empresa respetar su tiempo y respetar los plazos
               acordados
             </p>
           </li>
-        </ul>
-        <ul class="list flex-container-position">
-          <li class="background-section-initial">
-            <svg class="icon-products">
+      
+          <li>
+            <svg class="icon-products background-section-initial">
               <use href="./images/icons.svg#diagrama-1"></use>
             </svg>
-          </li>
-          <li>
             <h3 class="description-charges-name">PLANIFICACIÓN</h3>
-          </li>
-          <li>
             <p class="description-charges">
               Usted podrá oservar y participar en cada fase del desarrollo y
               aplicación de soluciones
             </p>
           </li>
-        </ul>
-        <ul class="list flex-container-position">
-          <li class="background-section-initial">
-            <svg class="icon-products">
+      
+  
+          <li>
+            <svg class="icon-products background-section-initial">
               <use href="./images/icons.svg#astronauta-1"></use>
             </svg>
-          </li>
-
-          <li>
             <h3 class="description-charges-name">TECNOLOGÍA MODERNA</h3>
-          </li>
-          <li>
             <p class="description-charges">
               Usamos herramientas innovadoras para resolver las tareas
               asignadas. Es hora de simplificar los procesos laborales
@@ -138,8 +113,8 @@
         </ul>
       </section>
 
-      <section class="section-products">
-        <ul class="list container flex-container">
+      <section class="section section-products">
+        <div class="list container flex-container">
           <h2>A qué nos dedicamos</h2>
           <ul class="list flex-container-row">
             <li class="img-services1">
@@ -152,24 +127,23 @@
               <h3 class="footer-img-services">SOLUCIONES DE DISEÑO</h3>
             </li>
           </ul>
-        </ul>
+        </div>
       </section>
 
-      <section class="section">
-        <ul class="list container flex-container">
+      <section class="section background-section-team">
+        <div class="container flex-container">
           <h2>Nuestro Equipo</h2>
-          <ul class="list team-container">
-            <ul class="list team-member">
+          <ul class="list container team-container">
+            <li class="team-member">
               <img
                 src="./images/disproducts.jpg"
                 width="270"
                 height="260"
                 alt="Diseñador de productos"
               />
-              <li class="team-member-info">
                 <h2 class="team-member-name">Andrés Cubo</h2>
-                <span class="team-member-position">Diseñador de Productos</span>
-                <ul class="list team-member-icon-container">
+                <p class="team-member-position">Diseñador de Productos</p>
+                <div class="list team-member-icon-container">
                   <svg class="icon-container">
                     <use href="./images/icons.svg#instagram-2"></use>
                   </svg>
@@ -182,22 +156,22 @@
                   <svg class="icon-container">
                     <use href="./images/icons.svg#linkedin-1"></use>
                   </svg>
-                </ul>
+                </div>
               </li>
-            </ul>
-            <ul class="list team-member">
+          
+            <li class="team-member">
               <img
                 src="./images/frontEnd.jpg"
                 width="270"
                 height="260"
                 alt="Desarrolladora Frontend"
               />
-              <li class="team-member-info">
+            
                 <h2 class="team-member-name">Carla Palacios</h2>
-                <span class="team-member-position"
-                  >Desarrolladora Frontend</span
+                <p class="team-member-position"
+                  >Desarrolladora Frontend</
                 >
-                <ul class="list team-member-icon-container">
+                <div class="list team-member-icon-container">
                   <svg class="icon-container">
                     <use href="./images/icons.svg#instagram-2"></use>
                   </svg>
@@ -210,20 +184,19 @@
                   <svg class="icon-container">
                     <use href="./images/icons.svg#linkedin-1"></use>
                   </svg>
-                </ul>
+                </div>
               </li>
-            </ul>
-            <ul class="list team-member">
+          
+            <li class="team-member">
               <img
                 src="./images/marketing.jpg"
                 width="270"
                 height="260"
                 alt="Marketing"
               />
-              <li class="team-member-info">
                 <h2 class="team-member-name">Mario Dorado</h2>
-                <span class="team-member-position">Marketing</span>
-                <ul class="list team-member-icon-container">
+                <p class="team-member-position">Marketing</p>
+                <div class="list team-member-icon-container">
                   <svg class="icon-container">
                     <use href="./images/icons.svg#instagram-2"></use>
                   </svg>
@@ -236,15 +209,14 @@
                   <svg class="icon-container">
                     <use href="./images/icons.svg#linkedin-1"></use>
                   </svg>
-                </ul>
+                </div>
               </li>
-            </ul>
-            <ul class="list team-member">
+        
+            <li class="team-member">
               <img src="./images/disIU.jpg" width="270" height="260" alt="" />
-              <li class="team-member-info">
                 <h2 class="team-member-name">Pablo Mijangos</h2>
-                <span class="team-member-position">Diseñador IU </span>
-                <ul class="list team-member-icon-container">
+                <p class="team-member-position">Diseñador IU </p>
+                <div class="list team-member-icon-container">
                   <svg class="icon-container">
                     <use href="./images/icons.svg#instagram-2"></use>
                   </svg>
@@ -257,15 +229,14 @@
                   <svg class="icon-container">
                     <use href="./images/icons.svg#linkedin-1"></use>
                   </svg>
-                </ul>
-              </li>
-            </ul>
+                </div>
+              </li>  
           </ul>
-        </ul>
+        </div>
       </section>
 
-      <section class="section-customers">
-        <ul class="list container">
+      <section class="section">
+        <div class="list container flex-container">
           <h2>Clientes Regulares</h2>
           <ul class="list regular-customers">
             <li class="background-section-customers">
@@ -299,20 +270,18 @@
               </svg>
             </li>
           </ul>
-        </ul>
+        </div>
       </section>
     </main>
 
     <footer class="section-background">
-      <address class="flex-container-footer">
-        <ul class="text-footer flex-container-position-footer">
+      <address class="container footer-network-row">
+        <ul class="text-footer">
           <a class="custom-items-webstudio">WebStudio</a>
-          <div class="section-footer">
+          <li class="section-footer">
             <a class="color-foot-font text-footer"
-              >Caiz. Ticoman 500 ciudad de</a
+              >Caiz. Ticoman 500 ciudad de México, CDMX, México</a
             >
-
-            <a class="color-foot-font text-footer">México, CDMX, México</a>
 
             <a
               href="mailto:info@devestudio.com"
@@ -325,11 +294,11 @@
               class="header-link-selected-hoover text-footer"
               >+52552960000</a
             >
-          </div>
-        </ul>
+          </li>
+      </ul>
         <ul class="list text-footer footer-network">
           <h3 class="color-foot-font">ENCUENTRENOS EN</h3>
-          <div class="footer-network-row">
+          <li class="footer-network-row">
             <svg class="icon-container">
               <use href="./images/icons.svg#instagram-2"></use>
             </svg>
@@ -342,8 +311,9 @@
             <svg class="icon-container">
               <use href="./images/icons.svg#linkedin-1"></use>
             </svg>
-          </div>
+          </li>
         </ul>
+      
       </address>
     </footer>
   </body>
