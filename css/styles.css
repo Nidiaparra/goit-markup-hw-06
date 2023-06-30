@@ -271,6 +271,9 @@ body {
   text-align: center;
   order: none;
   cursor: pointer;
+  width: 200px;
+  height: 50px;
+  border-radius: 4px;
 }
 
 .effect-color:hover {
@@ -429,6 +432,7 @@ h2 {
   cursor: pointer;
   fill: #2196f3;
 }
+
 .icon-tel {
   width: 10px;
   height: 16px;
@@ -446,6 +450,14 @@ h2 {
 
 .icon-sob:hover {
   fill: #2196f3;
+}
+
+.icon-networks {
+  fill: #afb1b8;
+}
+
+.icon-networks:hover {
+  fill: #ffffff;
 }
 
 .flex-container-position {
