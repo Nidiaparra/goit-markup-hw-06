@@ -21,62 +21,64 @@
     <title>T4 Nidia Parra</title>
   </head>
   <body>
-    <header class="header">
-      <nav class="container navegator">
-        <ul class="list header-page">
-          <a href="index.html" class="custom-items-webstudio">WebStudio</a>
-          <li class="navegator header-page">
-            <a href="index.html" class="header-link-selected">Estudio</a>
-
-            <a href="portfolio.html" class="custom-items-estudio">
-              Portafolio</a
-            >
-
-            <a href="#" class="text-contact">Contactos</a>
-          </li>
-        </ul>
-        <ul class="list">
-          <li class="navegator">
-            <a href="mailto:info@devestudio.com" class="header-link-selected">
-              <svg class="icon-sob">
-                <use href="./images/icons.svg#sobre-activable"></use>
-              </svg>
-              info@devestudio.com</a
-            >
-
-            <a href="tel:+52552960000" class="header-link-selected"
-              ><svg class="icon-tel">
-                <use href="./images/icons.svg#telfono-inteligente"></use>
-              </svg>
-              +52552960000</a
-            >
-          </li>
+    <header class="container navegator navegator-header">
+      <nav class="header-page">
+        <a href="index.html" class="custom-items-webstudio">WebStudio</a>
+        <ul class="list navegator header-page">
+          <a href="index.html" class="header-link-selected">Estudio</a>
+          <a href="portfolio.html" class="custom-items-estudio"> Portafolio</a>
+          <a href="#" class="text-contact">Contactos</a>
         </ul>
       </nav>
+      <ul class="list navegator">
+        <li>
+          <a
+            href="mailto:info@devestudio.com"
+            class="header-link-selected icon-sob"
+          >
+            <svg class="icon-sob">
+              <use href="./images/icons.svg#sobre-activable"></use>
+            </svg>
+            info@devestudio.com</a
+          >
+
+          <a href="tel:+52552960000" class="header-link-selected"
+            ><svg class="icon-tel">
+              <use href="./images/icons.svg#telfono-inteligente"></use>
+            </svg>
+            +52552960000</a
+          >
+        </li>
+      </ul>
     </header>
 
     <main>
       <section class="section">
-        <ul class="list container">
-          <li class="section-button-portfolio">
+        <ul class="list container section-button-portfolio">
+          <li>
             <button type="button" class="button-portfolio effect-color-button">
               Todo
             </button>
+          </li>
 
+          <li>
             <button type="button" class="button-portfolio">Sitios-web</button>
-
+          </li>
+          <li>
             <button type="button" class="button-portfolio">Aplicaciones</button>
-
+          </li>
+          <li>
             <button type="button" class="button-portfolio">Diseño</button>
-
+          </li>
+          <li>
             <button type="button" class="button-portfolio">Marketing</button>
           </li>
         </ul>
       </section>
 
-      <section class="navegator container">
-        <ul class="list border-target">
-          <li>
+      <section class="section">
+        <ul class="list navegator container">
+          <li class="border-target target-portfolio">
             <a href="#" class="li-line">
               <img
                 src="./images/tecnoduck.jpg"
@@ -84,14 +86,14 @@
                 width="370"
                 height="294"
               />
-
-              <h3 class="p-text-name">Tecnoduck</h3>
-              <p class="p-text">Sitio-web</p>
+              <div>
+                <h3 class="p-text-name">Tecnoduck</h3>
+                <p class="p-text">Sitio-web</p>
+              </div>
             </a>
           </li>
-        </ul>
-        <ul class="list border-target target-portfolio">
-          <li>
+
+          <li class="border-target target-portfolio">
             <a href="#" class="li-line">
               <img
                 src="./images/norleands.jpg"
@@ -99,16 +101,16 @@
                 width="370px"
                 height="294px"
               />
-
-              <p class="p-text-name-orleands">
-                Póster de Nueva Orleands Vs Estrella Dorada
-              </p>
-              <p class="p-text">Diseño</p>
+              <div>
+                <h3 class="p-text-name-orleands">
+                  Póster de Nueva Orleands Vs Estrella Dorada
+                </h3>
+                <p class="p-text">Diseño</p>
+              </div>
             </a>
           </li>
-        </ul>
-        <ul class="list border-target target-portfolio">
-          <li>
+
+          <li class="border-target target-portfolio">
             <a href="#" class="li-line">
               <img
                 src="./images/seafood.jpg"
@@ -116,15 +118,14 @@
                 width="370"
                 height="294"
               />
-
-              <h3 class="p-text-name">Restaurante Seafood</h3>
-              <p class="p-text">Aplicaciones</p>
+              <div>
+                <h3 class="p-text-name">Restaurante Seafood</h3>
+                <p class="p-text">Aplicaciones</p>
+              </div>
             </a>
           </li>
-        </ul>
 
-        <ul class="list target-portfolio border-target">
-          <li>
+          <li class="border-target target-portfolio">
             <a href="#" class="li-line">
               <img
                 src="./images/audifonos.jpg"
@@ -132,14 +133,14 @@
                 width="370"
                 height="294"
               />
-
-              <h3 class="p-text-name">Proyecto Prime</h3>
-              <p class="p-text">Marketing</p>
+              <div>
+                <h3 class="p-text-name">Proyecto Prime</h3>
+                <p class="p-text">Marketing</p>
+              </div>
             </a>
           </li>
-        </ul>
-        <ul class="list target-portfolio border-target">
-          <li>
+
+          <li class="border-target target-portfolio">
             <a href="#" class="li-line">
               <img
                 src="./images/box.jpg"
@@ -147,15 +148,14 @@
                 width="370"
                 height="294"
               />
-
-              <h3 class="p-text-name">Proyecto Cajas</h3>
-              <p class="p-text">Aplicaciones</p>
+              <div>
+                <h3 class="p-text-name">Proyecto Cajas</h3>
+                <p class="p-text">Aplicaciones</p>
+              </div>
             </a>
           </li>
-        </ul>
 
-        <ul class="list target-portfolio border-target">
-          <li>
+          <li class="border-target target-portfolio">
             <a href="#" class="li-line">
               <img
                 src="./images/monitor.jpg"
@@ -163,15 +163,15 @@
                 width="370"
                 height="294"
               />
+              <div>
+                <h3 class="p-text-name">La inspiración no tiene límites</h3>
 
-              <h3 class="p-text-name">La inspiración no tiene límites</h3>
-
-              <p class="p-text">Sitio-web</p>
+                <p class="p-text">Sitio-web</p>
+              </div>
             </a>
           </li>
-        </ul>
-        <ul class="list target-portfolio border-target">
-          <li>
+
+          <li class="border-target target-portfolio">
             <a href="#" class="li-line">
               <img
                 src="./images/eltda.jpg"
@@ -179,13 +179,14 @@
                 width="370"
                 height="294"
               />
-              <h3 class="p-text-name">Edición Limitada</h3>
-              <p class="p-text">Diseño</p>
+              <div>
+                <h3 class="p-text-name">Edición Limitada</h3>
+                <p class="p-text">Diseño</p>
+              </div>
             </a>
           </li>
-        </ul>
-        <ul class="list target-portfolio border-target">
-          <li>
+
+          <li class="border-target target-portfolio">
             <a href="#" class="li-line">
               <img
                 src="./images/labeltag.jpg"
@@ -199,10 +200,8 @@
               </div>
             </a>
           </li>
-        </ul>
 
-        <ul class="list target-portfolio border-target">
-          <li>
+          <li class="border-target target-portfolio">
             <a href="#" class="li-line">
               <img
                 src="./images/portatil.jpg"
@@ -222,19 +221,21 @@
 
     <footer class="section-background">
       <address class="container footer-network-row">
-        <ul class="text-footer">
+        <ul class="list text-footer">
           <a class="custom-items-webstudio">WebStudio</a>
           <li class="section-footer">
             <a class="color-foot-font text-footer"
               >Caiz. Ticoman 500 ciudad de México, CDMX, México</a
             >
-
+          </li>
+          <li>
             <a
               href="mailto:info@devestudio.com"
               class="header-link-selected-hoover text-footer"
               >info@devestudio.com</a
             >
-
+          </li>
+          <li>
             <a
               href="tel:+52552960000"
               class="header-link-selected-hoover text-footer"
@@ -242,23 +243,31 @@
             >
           </li>
         </ul>
-        <ul class="list text-footer footer-network">
+        <div class="text-footer footer-network container">
           <h3 class="color-foot-font">ENCUENTRENOS EN</h3>
-          <li class="footer-network-row">
-            <svg class="icon-container icon-networks">
-              <use href="./images/icons.svg#instagram-2"></use>
-            </svg>
-            <svg class="icon-container icon-networks">
-              <use href="./images/icons.svg#twiter"></use>
-            </svg>
-            <svg class="icon-container icon-networks">
-              <use href="./images/icons.svg#facebook-1"></use>
-            </svg>
-            <svg class="icon-container icon-networks">
-              <use href="./images/icons.svg#linkedin-1"></use>
-            </svg>
-          </li>
-        </ul>
+          <ul class="list footer-network-row">
+            <li class="icon-container icon-networks">
+              <svg>
+                <use href="./images/icons.svg#instagram-2"></use>
+              </svg>
+            </li>
+            <li class="icon-container icon-networks">
+              <svg>
+                <use href="./images/icons.svg#twiter"></use>
+              </svg>
+            </li>
+            <li class="icon-container icon-networks">
+              <svg>
+                <use href="./images/icons.svg#facebook-1"></use>
+              </svg>
+            </li>
+            <li class="icon-container icon-networks">
+              <svg>
+                <use href="./images/icons.svg#linkedin-1"></use>
+              </svg>
+            </li>
+          </ul>
+        </div>
       </address>
     </footer>
   </body>
