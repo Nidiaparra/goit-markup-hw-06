@@ -18,14 +18,20 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <title>T4 Nidia Parra</title>
+    <title>T5 Nidia Parra</title>
   </head>
   <body>
     <header class="container navegator navegator-header">
       <nav class="header-page">
         <a href="index.html" class="custom-items-webstudio">WebStudio</a>
         <ul class="list navegator header-page">
-          <a href="index.html" class="custom-items-estudio">Estudio</a>
+          <a href="index.html" class="custom-items-estudio data-modal-open"
+            >Estudio</a
+          >
+          <div class="backdrop is-hidden" data-modal>
+            <div class="modal"></div>
+          </div>
+
           <a href="portfolio.html" class="header-link-selected"> Portafolio</a>
           <a href="#" class="text-contact">Contactos</a>
         </ul>
@@ -50,7 +56,7 @@
       </ul>
     </header>
     <main>
-      <section class="section-banner">
+      <section class="section-banner image-banner">
         <h1 class="text-banner">SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
         <button type="button" class="effect-color">
           Solicite nuestro servicio
@@ -325,5 +331,6 @@
         </address>
       </div>
     </footer>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
