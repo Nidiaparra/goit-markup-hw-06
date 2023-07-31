@@ -18,7 +18,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <title>T5 Nidia Parra</title>
+    <title>T6 Nidia Parra</title>
   </head>
   <body>
     <header class="container navegator navegator-header">
@@ -68,6 +68,69 @@
                 <use href="./images/icons.svg#close"></use>
               </svg>
             </a>
+            <div>
+              <form action="#" class="modal-form">
+                <h3 class="h3-modal">
+                  Deje sus datos, nos contactaremos con usted
+                </h3>
+                <label for="input-name"> Nombre </label>
+                <div class="modal-icon-enter">
+                  <input
+                    class="modal-form-input"
+                    type="text"
+                    name="Nombre"
+                    id="name"
+                  />
+
+                  <svg class="icon-modal-data">
+                    <use href="./images/icons.svg#persona"></use>
+                  </svg>
+                </div>
+
+                <label for="input-name"> Teléfono </label>
+                <div class="modal-icon-enter">
+                  <input class="modal-form-input" type="text" name="Teléfono" />
+                  <svg class="icon-modal-data">
+                    <use href="./images/icons.svg#telfononegro"></use>
+                  </svg>
+                </div>
+
+                <label for="input-name"> e-mail </label>
+                <div class="modal-icon-enter">
+                  <input class="modal-form-input" type="text" name="Correo" />
+
+                  <svg class="icon-modal-data">
+                    <use href="./images/icons.svg#email"></use>
+                  </svg>
+                </div>
+                <label for="input-name">
+                  Comentarios
+
+                  <textarea
+                    class="modal-form-message"
+                    name="message"
+                    rows="5"
+                    placeholder="Introduzca el texto"
+                  ></textarea>
+                </label>
+
+                <div class="c">
+                  <input
+                    type="checkbox"
+                    class="modal-form-checkbox visually-hidden"
+                    id="policy"
+                  />
+
+                  <label for="policy" class="modal-form-checkbox-label">
+                    Estoy de acuerdo con el boletín informativo y acepto los
+                    Términos y Condiciones
+                  </label>
+                </div>
+                <div class="position-btn-modal">
+                  <button type="submit" class="modal-btn">Enviar</button>
+                </div>
+              </form>
+            </div>
           </div>
         </div>
       </section>
@@ -337,9 +400,31 @@
               </li>
             </ul>
           </div>
+          <div class="text-bulletin footer-bulletin container">
+            <h3 class="color-foot-font">SUSCRÍBASE AL BOLETIN INFORMATIVO</h3>
+            <ul class="list footer-network-row-suscription">
+              <li>
+                <textarea
+                  class="suscription"
+                  name="suscripción"
+                  rows="1"
+                  placeholder="Correo electrónico"
+                ></textarea>
+              </li>
+              <li>
+                <button class="suscription-btn">
+                  Suscríbase
+                  <svg class="icon-suscription">
+                    <use href="./images/icons.svg#enviar"></use>
+                  </svg>
+                </button>
+              </li>
+            </ul>
+          </div>
         </address>
       </div>
     </footer>
-    <script src="./modal.js"></script>
+
+    <script src="./js/modal.js"></script>
   </body>
 </html>
